@@ -1,0 +1,106 @@
+* {
+  div {
+    border: 1px solid black;
+  }
+}
+.main {
+  max-width: 1000px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.header {
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.content {
+  flex: 8;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+.part-1 {
+  flex: 2;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 180px;
+}
+
+.part-2 {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: none;
+}
+.box11 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: center;
+  text-align: center;
+}
+.box101 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  padding-top: 35px;
+}
+.box102 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  padding-top: 35px;
+}
+.box103 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  padding-top: 35px;
+}
+.box12 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  text-align: center;
+}
+.box21 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  padding-top: 35px;
+}
+.box22 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  padding-top: 35px;
+}
+.box23 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  padding-top: 35px;
+}
+.box13 {
+  flex: 1;
+  margin: 5px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+}
+.footer {
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  padding-top: 25px;
+}
